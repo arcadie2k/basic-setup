@@ -1,6 +1,6 @@
 const express = require('express')
 
-const PORT = process.env.NODE_ENV || 8080
+const PORT = process.env.PORT || 8080
 const app = express()
 
 app.get('/', (req, res) => {
